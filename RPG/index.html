@@ -1,0 +1,58 @@
+﻿<html>
+<head>
+    <meta charset="utf-8" />
+    <title>VM-11 RPG</title>
+    <link href="css/style.css" rel="stylesheet"/>
+    <script src='js/graph/graph.js'></script>
+    <script src='js/game/struct.js'></script>
+    <script src='js/game/logic.js'></script>
+    <script src='js/game/room.js'></script>
+    <script src='js/game/item.js'></script>
+    <script src='js/game/monster.js'></script>
+    <script src='js/game/game.js'></script>
+    <script src='js/main.js'></script>
+</head>
+<body id="body">
+    <div id="center-align">
+        <div id="personInfo">
+            <div id="fuel">
+                <span>Сытость</span><br />
+                <div id="fuel-main">
+                    <div id="fuel-progress"></div>
+                </div>
+            </div>
+
+            <div id='money'>
+                <img src="img/items/money.png" width="40" height="40" />
+                <span>:</span>
+                <span id="money-volue">0</span>
+            </div>
+
+            <span>Q - backpack | Esc - menu(wait next ver)</span>
+
+        </div>
+
+        <div id="backpack">
+            <span>Мешок</span><br />
+            <div id="backpack-field"></div>
+        </div>
+
+        <div id="rooms">
+            <span id='room-title'></span> <br />
+            <canvas id='canvas' width='600' height='460'></canvas><br />
+            <span id='room-description'></span>
+            <span id="itemInfo"></span>
+        </div>
+        <!--<div id="items">
+    <span>Предметы</span><br />
+    <div id="items-field"></div>
+    </div>-->
+        <!--<div style="width:100%; height:1px; clear:both;"></div>-->
+        <div id="exits">
+            <div id='ways'></div>
+        </div>
+        <!--<audio id="mus" controls="controls" autoplay="autoplay" loop="loop">-->
+
+    </div>
+</body>
+ </html>
